@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Montserrat:wght@200&family=PT+Serif:ital@1&display=swap');
+.flex_all_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Edu SA Beginner', cursive;
+}

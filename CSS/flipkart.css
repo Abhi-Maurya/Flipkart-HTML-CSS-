@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Montserrat:wght@200&family=PT+Serif:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: #2874f0
+}
+
+header {
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    width: 100vw;
+    /* position: fixed; */
+    font-family: 'Edu SA Beginner', cursive;
+}
+
+.navbar {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar div:hover {
+    font-weight: bold;
+}
+
+.navbar div{
+    padding: 0px 30px;
+}
+
+.Search input {
+    width: 30vw;
+    height: 23px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 0px 5px;
+}
+
+.button{
+    padding-left: 0px;
+}
+
+.Login button {
+    width: 100px;
+    height: 25px;
+}
+
+.Seller p {
+    color: white;
+    font-size: 20px;
+}
+
+/* 
+div {
+    padding: 0px 23px;
+} */
+
+.container {
+    min-height: calc(100vh - 8vh - 15vh);
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.slider img {
+    height: 250px;
+}
+
+.card {
+    /* background-color: aqua; */
+    width: 97vw;
+    margin: auto;
+    padding: 0px 23px;
+    margin: 10px 10px;
+}
+
+.card-item img {
+    margin: 5px;
+    padding: 10px;
+}
+
+/* .card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 14px;
+} */
+
+/* .card-item img{
+    width: 100px;
+} */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    /* overflow: scroll; */
+}
+
+.card .lines {
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 0px;
+}
+
+.lines h3{
+    color: lightgreen;
+}
+
+.lines h4{
+    color: gray;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 15vh;
+}
